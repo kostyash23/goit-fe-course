@@ -114,6 +114,12 @@ header {
   font-weight: 900;
   color: #fff;
 }
+.block_info:hover .name_product{
+  background-color: #1abc9c;
+}
+.block_info:hover .price{
+  background-color: #7fd9c7;
+}
 .bg1 {
   background-image: url("../img/product1.jpg");
 }
