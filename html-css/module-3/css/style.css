@@ -55,17 +55,27 @@ p {
   color: #626262;
   font-size: 14px;
 }
+article:nth-last-of-type(-n + 2){
+  margin-bottom: 60px;
+}
 .button {
   background: #fff;
-  border: 2px solide #626262;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
   width: 160px;
   height: 60px;
   margin: 0 auto;
-  padding: 22px 33px;
+  font-family: 'Playfair Display', serif;
   color: #626262;
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 70px;
+  text-align: center;
+  cursor: pointer;
 }
 .load {
+  
   text-align: center;
 }
+
+
