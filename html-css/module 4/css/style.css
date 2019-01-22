@@ -194,6 +194,6 @@ header {
   font-size: 16px;
   border-radius: 3px;
 }
-.read_more {
+.read_more {margin-bottom: 80px;
   margin-top: 18px;
 }
