@@ -59,7 +59,7 @@ header {
 .baner{ 
   width: 100%;
     max-height: 600px;
-    background:url("/img/slide4.jpg")
+    background:url("../img/slide4.jpg")
 }
 .slider{ margin: 0 auto;
   position: relative;
