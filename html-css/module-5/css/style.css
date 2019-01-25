@@ -106,7 +106,7 @@ header {
 
 .tour-txt{
   margin: 0;
-  text-align: center;
+  padding-left: 152px;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -310,7 +310,7 @@ header {
 
 .btn:hover{
   background-color: #1abc9c;
-  border: none;
+  
 }
 
 .social-icons .cart-btn:hover{
