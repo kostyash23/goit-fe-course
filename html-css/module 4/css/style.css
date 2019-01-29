@@ -183,6 +183,7 @@ header {
 }
 
 .read_more button {
+  cursor: pointer;
   background: #4ec6ab;
   border: 0px;
   width: 160px;
