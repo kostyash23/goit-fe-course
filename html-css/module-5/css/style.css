@@ -85,7 +85,7 @@ header {
   background: url(../img/slider_arrow.png), rgb(78, 198, 171, .6);
   background-repeat: no-repeat;
   background-position: center;
-  transform: translatey(-63%);;
+  transform: translatey(-63%);
 }
 
 .right-btn{
@@ -93,6 +93,7 @@ header {
   background: url(../img/slider_arrowr.png), rgb(78, 198, 171, .6);
   background-repeat: no-repeat;
   background-position: center;
+  transform: translatey(-63%);
   
 }
 
