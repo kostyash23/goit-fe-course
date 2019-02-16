@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: url("../fonts/DroidSerif-Italic.woff2") format("woff2"),
+    url("../fonts/DroidSerif-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Wisdom Script";
+  src: url("../fonts/Wisdom-Script.woff2") format("woff2"),
+    url("../fonts/Wisdom-Script.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+footer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Wisdom Script";
+  color: #fed136;
+}
+
+.menu ul {
+  width: 487px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #222222;
+  text-transform: uppercase;
+}
+.menu a:hover {
+  color: #fed136;
+}
+.services h2 {
+  margin-top: 114px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 0 0 rgb(34, 34, 34);
+  text-transform: uppercase;
+
+  color: rgb(34, 34, 34);
+
+  margin-bottom: 18px;
+  font-size: 40px;
+  line-height: 46px;
+
+  text-align: center;
+}
+.services p {
+  font-size: 19px;
+  text-align: center;
+  font-family: "Droid Serif";
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 78px;
+  color: rgb(119, 119, 119);
+}
+.cards-wrapper {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards {
+  width: 290px;
+  height:212px;
+  text-align: center;
+}
+.cards img {
+  max-width: 100%;
+  height: auto;
+}
+.cards h4 {
+  color: rgb(34, 34, 34);
+  line-height: 50px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 750;
+}
+.cards p {
+  color: rgb(119, 119, 119);
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 16px;
+}
+.contact {height: 680px;
+  position: relative;
+  margin: 0 auto;
+  
+  background:#222222 url("../img/Trial.png") no-repeat top 130px right 0px ;
+  background-position:  
+  
+}
+.contact h2 {
+  padding-top: 110px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+.contact p {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 16px;
+  color: #777777;
+  font-family: "Droid Serif";
+  font-style: italic;
+  margin-bottom: 75px;
+}
+.form-wrapper {
+  margin: 0 auto;
+  width: 940px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 30px;
+}
+.form-wrapper input {
+  height: 55px;
+}
+.form-wrapper input,
+textarea {
+  padding: 20px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;  
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  width: 459px;
+}
+.form-wrapper textarea {
+  height:212px;
+}
+::placeholder {
+  
+  color: rgba(187, 187, 187);
+}
+input:invalid:hover,textarea:invalid:hover{
+  outline: #902f2f solid;  
+}
+
+input:required:valid,textarea:valid{
+  outline: #2f903c solid;
+}
+form{ 
+     position: relative;
+ } 
+input[type="submit"]{
+  width:240px;
+  line-height:66px;
+  color:#ffffff;
+  text-align: center;
+  font-size:18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(254, 209, 54);
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  cursor:pointer; 
+  position: absolute;
+  bottom:-96px;
+  left:50%;
+  transform: translateX(-50%);
+
+}
