@@ -1,0 +1,143 @@
+@media (min-width: 768px) and (max-width: 1439px) {
+  .wrapper {
+    max-width: 768px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between;
+  }
+  header {
+    height: 700px;
+  }
+  header h2 {
+    margin-top: 50px;
+  }
+  nav {
+    margin-top: 50px;
+  }
+  header h1 {
+    margin: 0 auto;
+    margin-top: 141px;
+    margin-bottom: 20px;
+    font-size: 52px;
+    padding: 0 60px;
+  }
+  header p {
+    margin-bottom: 34px;
+    padding: 0 30px;
+    font-size: 24px;
+  }
+  header button {
+    font-weight: 700;
+    width: 226px;
+  }
+  .holidays h3 {
+    margin-top: 58px;
+    margin-bottom: 33px;
+  }
+  .holidays button {
+    margin-top: 20px;
+  }
+  .list {
+    padding: 0;
+    width: 492px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article {
+    width: 236px;
+    margin-bottom: 28px;
+  }
+  article:nth-child(2) {
+    order: 2;
+  }
+  article:nth-child(3) {
+    order: 1;
+  }
+  article:nth-child(4) {
+    order: 3;
+  }
+  .holidays button {
+    width: 192px;
+  }
+}
+@media (min-width: 1439px) {
+  .wrapper {
+    max-width: 1440px;
+   
+  }
+  header {
+    padding-top: 0;
+    background-size: cover;
+  }
+  .bg {
+    height: 841px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between;
+  }
+  header h2 {
+    margin-top: 50px;
+  }
+  nav {
+    margin-top: 50px;
+  }
+  header h1 {
+    font-size: 52px;
+    padding: 0 160px;
+
+    margin-top: 156px;
+  }
+  header p {
+    font-size: 24px;
+    margin-bottom: 34px;
+  }
+  header button {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 236px;
+  }
+  .holidays h3 {
+    margin-top: 58px;
+    margin-bottom: 33px;
+  }
+  .list {
+    padding: 0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article {
+    width: 220px;
+    margin-bottom: 28px;
+  }
+
+  article:nth-child(2) {
+    order: 2;
+  }
+  article:nth-child(3) {
+    order: 1;
+  }
+  article:nth-child(4) {
+    order: 3;
+  }
+  .holidays button {
+    font-size: 14px;
+    width: 190px;
+  }
+}

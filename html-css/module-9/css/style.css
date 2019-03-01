@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+header {
+  padding-bottom: 232px;
+        padding-top:38px;
+  height: 540px;
+  background-size: cover;
+}
+
+.bg{height: 700px;
+  background: rgb(26, 25, 21) url("../img/banner.png") center center;
+  background-size: cover;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+
+.menu a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  border: solid 2px rgba(255, 255, 255, 0);
+  width: 92px;
+  border-radius: 19px;
+  height: 38px;
+  padding: 6px 16px;
+  transition: all 0.3s;
+}
+
+.menu a:hover,
+.menu a:focus {
+  border: solid 2px rgba(255, 255, 255, 1);
+}
+header h2 {
+  margin-top: 115px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+header h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 36px;
+}
+header p {
+  padding: 0px 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+header button {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  line-height: 40px;
+  display: block;
+  cursor: pointer;
+  background-color: rgb(255, 78, 80);
+  color: #ffffff;
+}
+.holidays h2 {
+  margin-top: 70px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+}
+.list {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+article {
+  margin: 0 auto;
+  width: 236px;
+  margin-bottom: 23px;
+}
+.cards {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 120px;
+}
+.cards img {
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 122px;
+}
+.icon {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.holidays h3 {
+  font-size: 22px;
+  color: #333333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.list h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.list p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  tab-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+#icon-tv{
+  background: url("../img/icon-tv.png") center center;
+}
+
+#icon-can {
+  background: url("../img/icon-can.png") center center;
+}
+
+#icon-coffe{
+  background: url("../img/icon-coffe.png") center center;
+}
+
+#img-plane {
+  background: url("../img/icon-plane.png") center center;
+}
+.holidays button {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  border-radius: 20px;
+  line-height: 40px;
+  display: block;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  background-color: rgba(255, 255, 255, 01);
+  color: rgb(255, 78, 80);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
